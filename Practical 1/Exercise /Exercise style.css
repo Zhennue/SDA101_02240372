@@ -1,0 +1,17 @@
+ul li{
+    background-color: rgb(255, 247, 0);
+    list-style: square;
+    margin: 5px;
+    width: 125px;
+    
+}
+
+ul li:hover{
+    transform: matrix3d(3px);
+    transition-duration: 0.5s;
+    background: rgb(255, 115, 0);
+}
+    
+ol li{
+    background-color: aqua;
+}
