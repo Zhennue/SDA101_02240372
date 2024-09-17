@@ -1,18 +1,3 @@
-body{
-    background-image: url(https://wallpapercave.com/wp/wp14037811.gif);
-    background-position: center;
-    background-size: cover;
-    height: 95vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-body, h4{
-    transform: matrix3d(3px);
-    transition-duration: 0.5s;
-}
-
 button1 {
     font-size: 18px;
     letter-spacing: 2px;

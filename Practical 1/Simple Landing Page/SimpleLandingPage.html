@@ -5,33 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Landing Page</title>
     <link rel="stylesheet" href="SimpleLandingPage.css">
+    <style>
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        h4{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+            background-color: gray;
+            display: grid;
+            place-items: center;
+        }
+
+        .box{
+            height: 680px;
+            width: 715px;
+            border: 2px solid pink;
+            background-color: aqua;
+        }
+    </style>
+
+    <style>
+        .CenterImage{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <h1 align="center">WIRED</h1>
-    </header>
 
-    <nav align="center">
-        <h4><a href="https://www.wired.com/category/gear/">HOME</a> |
-        <a href="https://www.wired.com/category/gear/buying-guides/">PRODUCTS</a> |
-        <a href="https://www.wired.com/story/about-us/">ABOUT US</a> |
-        <a href="https://www.wired.com/about/feedback/">CONTACT</a></h4> <br>
-    </nav>
+    <link rel="stylesheet" href="SimpleLandingPage.css">
 
-    <main align="center">
-        <h2>Gear</h2> 
-        <a href="https://www.wired.com/category/gear/">ALL GEAR</a>  /
-        <a href="https://www.wired.com/category/gear/buying-guides/">BUYING GUIDES</a>  /
-        <a href="https://www.wired.com/category/gear/reviews/">REVIEWS</a>  /
-        <a href="https://www.wired.com/category/gear/deals/">DEALS</a>  
-    </main>
+    <div class="container">
 
-    <section>
-        <div class="grid-container">
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
+       
+
+        <div class="box">
+
+            <header>
+                <h1 align="center">ZALA.BT</h1>
+            </header>
+
+            <button1 align="center">
+                <a href="SimpleLandingPage.html">HOME</a><br>            
+            </button1>
+
+            <button2>
+                <a href="Products.html">PRODUCTS</a> 
+            </button2>
+
+            <button3>
+                <a href="AboutUs.html">ABOUT US</a>
+            </button3>
+
+            <button4>
+                <a href="Contact.html">CONTACT</a>
+            </button4>
+
+             <img src="image.png" class="CenterImage">
+             
         </div>
-    </section>
+        
+        
+    </div>
+
 </body>
 </html>
