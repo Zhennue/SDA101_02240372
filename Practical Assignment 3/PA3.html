@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image 39</title>
+    <style>
+        .body {
+            margin: 0;
+        }
+
+        .logo {
+            color: grey;
+            font-style: italic;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+            padding: 0px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: auto;
+        }
+        .navbar a {                   
+            color: grey;        
+            text-decoration: none;
+            padding: 34px 20px;
+            border-radius: 5px;
+        }
+        .navbar a:hover {
+            background-color: rgb(0, 255, 229);
+        }
+        .purple-bg {
+            background-color: rgba(51, 0, 234, 0.558);
+            height: 550px; 
+            margin-top: 10px; 
+            padding: 20px;
+            width: 1242px;
+        }
+        
+        .purple-bg img {
+            height: 350px;
+            top: 135px;
+            right: 150px;
+            position: absolute;
+            width: 350px;
+        }
+        
+        .purple-bg h1 {
+            font-size:  60px;
+            color: white;
+            margin: 0;
+            font-display: 0px;
+            width: 1250px;
+        }
+
+        .purple-bg p {
+            font-size:  large;
+            color: white;
+            margin: 0;
+            font-display: 0px;
+            width: 1250px;
+            height: 35px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .purple-bg button {
+            font-size: 15px;
+            color: black;
+            height: 50px;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Added margin for spacing */
+        }
+
+        .image-gallery img {
+            width: 50px; /* Set width for smaller avatars */
+            height: 50px; /* Set height for smaller avatars */
+            border-radius: 50%; /* Make images circular */
+            margin: 0 10px; /* Space between images */
+            position: absolute;
+        }
+
+        .image-gallery p {
+            font-size: larger;
+            height: 100px;
+            position: absolute;
+        }
+        .vertical-line {
+            border-left: 2px solid black; 
+            height: 170px; 
+            margin: 0 20px; 
+            position: absolute;
+            right: 950px;
+            top: 485px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .services-section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .services-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .services-section p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            color: #666;
+        }
+
+        .service-cards {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            background-color: #f6f0ff;
+            border-radius: 10px;
+            padding: 30px;
+            flex: 1;
+            margin: 0 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .service-card img {
+            height: 40px;
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            font-size: 22px;
+            color: #7d4ae4;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .service-card a {
+            color: #7d4ae4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .service-card a:hover {
+            text-decoration: underline;
+        }
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 40px;
+  color: #800080;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.5em;
+  color: #800080;
+}
+
+.text {
+  font-size: 1em;
+  color: #555;
+}
+
+.learn-more {
+  text-decoration: none;
+  color: #800080;
+  padding: 5px 10px;
+  border: 1px solid #800080;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+body {
+            font-family: sans-serif;
+        }
+        .container {
+            display: flex;
+        }
+        .left-column {
+            width: 50%;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        .right-column {
+            width: 50%;
+            padding: 20px;
+        }
+        .step {
+            background-color: #e0e0e0;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .step-number {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.pagination .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.pagination .dot.active {
+  background-color: #333;
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+}
+
+body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .post {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: calc(50% - 20px);
+            margin: 0 10px;
+        }
+
+        .post img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .post-content {
+            padding: 20px;
+        }
+
+        .post-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .post-date {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .post-text {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .post {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: calc(50% - 20px);
+            margin: 0 10px;
+        }
+
+        .post img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .post-content {
+            padding: 20px;
+        }
+
+        .post-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .post-date {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .post-text {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: #fff;
+            margin: 0 20px;
+        }
+
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        .description {
+            text-align: center;
+            font-size: 16px;
+            color: #555;
+        }
+        body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background-color: #8352e8;
+      color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 500px;
+    }
+
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .card-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .card-icon {
+      font-size: 24px;
+      margin-right: 15px;
+    }
+
+    .card-text {
+      font-size: 16px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+ 
+    
+
+    .form-button:hover {
+      background-color: #444;
+    }
+</style>
+
+</head>
+<body>
+
+    <div class="logo">
+        <h1>Logo</h1>
+    </div>
+
+    <div class="navbar">
+        <h3 style="text-align: right;">
+            <a href="Home">Home</a>
+            <a href="About Us">About Us</a>
+            <a href="Landing">Landing</a>
+        </h3>
+    </div>
+
+    <div class="purple-bg">
+        <h1>Best Virtual Assistant For</h1>
+        <h1>Your Bussiness</h1> <br><br>
+        <img src="portrait-call-center-woman-consultant-agent-business-communication-help-online-support-professional-telemarketing-face-happy-virtual-assistant-person-wall-background_590464-181125.avif" alt="">
+        <p>Our virtual assistants are experienced proffesionals ready to manage</p>
+        <p>your administrative and creative tasks. Images from Freepik</p>
+        <button>Request a Consultation</button>
+        <div class="image-gallery">
+            <img src="boy.jpeg" alt="Boy Avatar" style="width: 50px; height: 50px; top: 550px; left: 15px;">
+            <img src="girl1.webp" alt="Girl1 Avatar" style="width: 50px; height: 50px; top: 550px; left: 60px;">
+            <img src="girl2.webp" alt="Girl2 Avatar" style="width: 50px; height: 50px; top: 550px; left: 100px;">
+            <p style="top: 560px; right: 0px; font-size: xx-large;">64,739</p> 
+            <p style="top: 600px; right: 0px; font-size: large;">Happy Customers</p>
+            <p style="top: 560px; left: 500px; font-size: xx-large;">4.8/5</p>
+            <p style="top: 600px; left: 500px; font-size: large;">✯✯✯✯✯</p>
+        </div>
+        <div style="display: flex; align-items: center;">
+            <div class="vertical-line"></div>
+        </div>
+    </div>
+
+    <section class="services-section">
+        <h2>Services We Provide</h2>
+        <p>Nunc eu turpis id nulla sodales luctus. Vestibulum fermentum dui faucibus ligula dapibus scelerisque. Etiam laoreet vitae est vitae convallis.</p>
+        <div class="service-cards">
+            
+            <div class="service-card">
+                <img src="https://img.icons8.com/fluency/48/edit--v1.png" alt="Writing & Editing Icon">
+                <h3>Writing & Editing</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="#">Learn More &rarr;</a>
+            </div>
+
+            <div class="service-card">
+                <img src="https://img.icons8.com/fluency/48/megaphone.png" alt="Digital Marketing Icon">
+                <h3>Digital Marketing</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="#">Learn More &rarr;</a>
+            </div>
+
+            <div class="service-card">
+                <img src="https://img.icons8.com/fluency/48/linkedin.png" alt="Social Media Strategy Icon">
+                <h3>Social Media Strategy</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="#">Learn More &rarr;</a>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="Container">
+        <div class="card">
+          <i class="icon">&#x1f464;</i>
+          <h2 class="title">Executive Admin</h2>
+          <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <a href="#" class="learn-more">Learn More</a>
+        </div>
+        <div class="card">
+            <i class="icon">&#129730;</i>
+            <h2 class="title">Project Manager</h2>
+            <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+          <div class="card">
+            <i class="icon">&#128222;</i>
+            <h2 class="title">Customer Services</h2>
+            <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <a href="#" class="learn-more">Learn More</a>
+        </div>
+
+        <div>
+            <div class="header">
+              <h1>Our Clients Say</h1>
+            </div>
+
+            <div class="container">
+                <div class="quote">
+                  "Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur,
+                  mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id
+                  metus. Maecenas ex enim, mattis eu velit vitae, blandit mattis sapien. Sed aliquam
+                  leo et semper vestibulum." </div>
+                <div class="author">- John Doe</div>
+                <div class="indicators">
+                  <div class="indicator active"></div>
+                  <div class="indicator"></div>
+                  <div class="indicator"></div>
+                </div>
+                <div class="arrow-left"></div>
+                <div class="arrow-right"></div>
+              </div>
+
+              <h1>Latest Posts</h1>
+    <div class=" container">
+        <div class="post">
+            <img src="1.png" alt="Post Image">
+            <div class="post-content">
+                <h2 class="post-title">Post 5 headline</h2>
+                <p class="post-date">Published on 2022-01-01</p>
+                <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            </div>
+        </div>
+        <div class="post">
+            <img src="2.jpeg" alt="Post Image">
+            <div class="post-content">
+                <h2 class="post-title">Post 4 headline</h2>
+                <p class="post-date">Published on 2022-01-02</p>
+                <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            </div>
+        </div>
+        <div class="post">
+            <img src="3.webp" alt="Post Image">
+            <div class="post-content">
+                <h2 class="post-title">Post 3 headline</h2>
+                <p class="post-date">Published on 2022-01-03</p>
+                <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="title">Complete Building Services</div>
+    <div class="container">
+        <div class="circle" style="background-color: #999;">
+            <div>65k</div>
+        </div>
+        <div class="circle" style="background-color: #999;">
+            <div>8k+</div>
+        </div>
+        <div class="circle" style="background-color: #999;">
+            <div>76</div>
+        </div>
+        <div class="circle" style="background-color: #999;">
+            <div>18
+        </div>
+    </div>
+    <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</div>
+    <div class="container">
+        <div class="card">
+          <h2 class="card-title">Let's Talk</h2>
+          <form>
+            <div class="form-group">
+              <label class="form-label" for="name">Name:</label>
+              <input class="form-input" type="text" id="name" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email:</label>
+              <input class="form-input" type="email" id="email" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Message:</label>
+              <textarea class="form-input" id="message"></textarea>
+            </div>
+            <button class="form-button">Send</button>
+          </form>
+        </div>
+      </div>
+
+        
+</body>
+</html> 
