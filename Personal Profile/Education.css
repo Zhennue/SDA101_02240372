@@ -1,0 +1,80 @@
+body {
+    background-image: url('126888345-10183721-0984-40c3-82bf-20c147897c6c.gif');
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.education-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.education-title {
+    font-size: 24px;
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.education-entry {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: background-image 0.3s ease, box-shadow 0.3s ease;
+    background-color: #e9f3fc;
+    background-size: cover;
+    background-position: center;
+}
+
+.education-entry:nth-child(2):hover {
+    background-image: url('https://www.rub.edu.bt/wp-content/uploads/2022/01/image.php_-1200x938.jpeg'); 
+}
+
+.education-entry:nth-child(3):hover {
+    background-image: url('https://www.ugyenacademy.edu.bt/source/files/post/oldpost/IMG_0457_-_Copy.JPG'); 
+}
+
+.education-entry:nth-child(4):hover {
+    background-image: url('https://scontent.fpbh2-1.fna.fbcdn.net/v/t39.30808-6/462690764_1106071261518872_498449710049708843_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=KTOLYT3HiPwQ7kNvgHnE-Pk&_nc_zt=23&_nc_ht=scontent.fpbh2-1.fna&_nc_gid=AyN4mp0S9rwEQhASro1kOXr&oh=00_AYAibvXLuuiL_xHh3Bv2o41dX0aFIpmXQteCbImNJFFMSw&oe=6723A66F'); 
+}
+
+
+.institution {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.degree {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.duration {
+    font-size: 14px;
+    color: #888;
+}
+
+.education-entry:hover .institution,
+.education-entry:hover .degree,
+.education-entry:hover .duration {
+    color: white;
+}

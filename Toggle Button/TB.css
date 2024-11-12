@@ -1,0 +1,53 @@
+body {
+    background-image: url(ezgif.com-gif-maker-12-1.gif);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.button-on {
+    width: 90%;
+    max-width: 100px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;   
+}
+
+.button-on:hover {
+    transform: translateY(-10px);
+    background: green;
+}
+
+.button-on a {
+    color: black;
+    transition: background 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.button-off {
+    width: 90%;
+    max-width: 100px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;   
+}
+
+.button-off:hover {
+    transform: translateY(-10px);
+    background: red;
+}
+
+.button-off a {
+    color: black;
+    transition: background 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}

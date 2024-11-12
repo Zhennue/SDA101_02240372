@@ -1,0 +1,72 @@
+body {
+    background-image: url(mountain.gif);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.achievements-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.achievements-title {
+    font-size: 24px;
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.achievement-card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #e9f3fc;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    transition: background-image 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.achievement-card:nth-child(2):hover {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BNDM5NTRiZTYtYWQ5YS00NzQ0LWE3MjAtM2M4ZjZiMzQzZWE2XkEyXkFqcGc@._V1_.jpg');
+    color: white;
+}
+
+.achievement-card:nth-child(3):hover {
+    background-image: url('https://images.marketpath.com/b459bcc6-c4f1-4ff5-a9c5-8a4c2d6a7ec8/image/0c04c3a7-109a-43b5-a39b-141819282206/istock-8689358121.jpg');
+    color: white;
+}
+
+.achievement-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.achievement-description {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #666;
+}
+
+.achievement-card:hover .achievement-title,
+.achievement-card:hover .achievement-description {
+    color: inherit;
+}

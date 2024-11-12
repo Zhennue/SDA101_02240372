@@ -1,0 +1,59 @@
+body {
+    background-image: url(ezgif.com-gif-maker-12-1.gif);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.social-links li {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #0077b5; /* Default color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover Effects */
+.social-links a:hover {
+    background-color: #005582; /* Darker shade for hover */
+    transform: translateY(-3px); /* Slight upward movement */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Specific colors for each social media */
+.github { background-color: #333; }
+.twitter { background-color: #1da1f2; }
+.facebook { background-color: #3b5998; }
+.linkedin { background-color: #0077b5; }
+
+/* Change hover colors for each */
+.github a:hover { background-color: #2a2a2a; }
+.twitter a:hover { background-color: #0d8bda; }
+.facebook a:hover { background-color: #2e4482; }
+.linkedin a:hover { background-color: #005582; }
