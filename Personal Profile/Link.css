@@ -29,7 +29,7 @@ body {
     color: white;
     padding: 15px;
     border-radius: 5px;
-    background-color: #0077b5; /* Default color */
+    background-color: #0077b5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,20 +39,17 @@ body {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-/* Hover Effects */
 .social-links a:hover {
-    background-color: #005582; /* Darker shade for hover */
-    transform: translateY(-3px); /* Slight upward movement */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-color: #005582;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Specific colors for each social media */
 .github { background-color: #333; }
 .twitter { background-color: #1da1f2; }
 .facebook { background-color: #3b5998; }
 .linkedin { background-color: #0077b5; }
 
-/* Change hover colors for each */
 .github a:hover { background-color: #2a2a2a; }
 .twitter a:hover { background-color: #0d8bda; }
 .facebook a:hover { background-color: #2e4482; }
